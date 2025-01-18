@@ -1,16 +1,17 @@
-import { defineUserConfig } from "vuepress";
+import {defineUserConfig} from "vuepress";
 
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/",
+    base: "/",
+    port: 5173,
 
-  lang: "zh-CN",
-  title: "博客演示",
-  description: "vuepress-theme-hope 的博客演示",
+    lang: "zh-CN",
+    title: "等等不等等",
+    description: "等等不等等的博客",
 
-  theme,
+    theme,
 
-  // 和 PWA 一起启用
-  // shouldPrefetch: false,
+    // 和 PWA 一起启用
+    // shouldPrefetch: false,
 });
